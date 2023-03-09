@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply bg-black
-  }
+  
+}
+
+html {
+  height: 100%;
+}
+body {
+  width: auto;
+  min-height: 100%;
 }
