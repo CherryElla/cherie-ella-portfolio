@@ -1,21 +1,25 @@
-import React from 'react';
+import React from "react";
 
 export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
-  );
+    return (
+        <div class="flex flex-col justify-center items-center">
+            <h2 class="font-bold text-9xl">CONTACT</h2>
+            <p class="text-2xl">Have a question or want to collaborate?</p>
+            <div class="mt-8 max-w-md">
+                <div class="grid grid-cols-1 gap-6">
+                    <label class="block custom-cursor-default-hover">
+                        <span class="text-white">Name</span>
+                        <input
+                            type="text"
+                            class="mt-1 block w-full rounded-md
+                            bg-gray-900 border-transparent
+                            focus:border-gray-500
+                            focus:bg-gray-200 
+                            focus:ring-0"
+                        />
+                    </label>
+                </div>
+            </div>
+        </div>
+    );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './About';
+import Portfolio from './Portfolio';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <div class="">
         <About />
       </div>
+      <Portfolio />
 
     </div>
   );
