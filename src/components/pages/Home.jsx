@@ -7,10 +7,13 @@ export default function Home() {
       <div class="z-0 relative w-8/12 h-auto">
         <img class="" src="./src/images/me-blue.png" alt="" />
       </div>
-      <div class="">
-
+      <div class="flex absolute font-Rubik+Iso text-7xl">
+        HELLO
       </div>
-      <About />
+      <div class="">
+        <About />
+      </div>
+
     </div>
   );
 }

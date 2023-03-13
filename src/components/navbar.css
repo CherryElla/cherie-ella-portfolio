@@ -1,6 +1,6 @@
 .nav a{
     position: absolute;
-    right: -60px;
+    left: -50px;
     transition: 0.3s;
     padding-left: 10px;
     width: 100px;
@@ -11,7 +11,7 @@
 }
 
 .nav a:hover {
-    right: 0;
+    left: 0;
     color: #2c271d;
 }
 

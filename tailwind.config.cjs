@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        'Rubik+Iso': ['Rubik+Iso'],
         inter: ['Source Code Pro', 'monospace']
       }
       // backgroundImage: {

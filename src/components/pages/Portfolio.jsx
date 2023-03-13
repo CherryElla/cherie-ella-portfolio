@@ -2,20 +2,18 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div class="flex m-9 p-9 grid-cols-3 gap-4 text-purple-800">
+      <div class="">
+        <img class="h-80 w-100 object-contain" src="./src/images/little-tech-blog.png" alt="" />
+        <p>The Little Tech Blog</p>
+          </div>
+      <div class="">
+        <img class="h-80 w-100 object-scale-down" src="./src/images/mate.png" alt="" />
+        <p>My Awesome Text Editor</p></div>
+      <div class="">
+        <img class="h-80 w-100 object-contain" src="./src/images/old-comp.png" alt="" />
+        <p>Coming Soon</p></div>
+
     </div>
   );
 }
