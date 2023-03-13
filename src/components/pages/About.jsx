@@ -2,8 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div class="flex h-auto object-cover">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

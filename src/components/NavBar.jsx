@@ -1,12 +1,12 @@
 import React from "react";
+import './navbar.css'
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavBar({ currentPage, handlePageChange }) {
     return (
-        <nav>
-        <ul className="nav nav-tabs">
+        <ul class="nav nav-tabs flex flex-row space-x-7 h-32">
             <li className="nav-item">
-                <a
+                <a id="home"
                     href="#home"
                     onClick={() => handlePageChange("Home")}
                     // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -19,7 +19,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 </a>
             </li>
             <li className="nav-item">
-                <a
+                <a id="about"
                     href="#about"
                     onClick={() => handlePageChange("About")}
                     // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -31,7 +31,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 </a>
             </li>
                 <li className="nav-item">
-                <a
+                <a id="portfolio"
                     href="#portfolio"
                     onClick={() => handlePageChange("Portfolio")}
                     // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -44,7 +44,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 </a>
             </li> 
             <li className="nav-item">
-                <a
+                <a id="blog"
                     href="#blog"
                     onClick={() => handlePageChange("Blog")}
                     // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -56,7 +56,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 </a>
                 </li>
             <li className="nav-item">
-                <a
+                <a id="contact"
                     href="#contact"
                     onClick={() => handlePageChange("Contact")}
                     // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -70,7 +70,6 @@ function NavBar({ currentPage, handlePageChange }) {
                 </a>
             </li>
         </ul>
-        </nav>
     );
 }
 

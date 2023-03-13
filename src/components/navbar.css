@@ -1,0 +1,62 @@
+.nav a{
+    position: absolute;
+    right: -60px;
+    transition: 0.3s;
+    padding-left: 10px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(140,232,247);
+    border-radius:  5px 0 0 5px ;
+}
+
+.nav a:hover {
+    right: 0;
+    color: #2c271d;
+}
+
+
+#home {
+  top: 20px;
+  background: rgb(140,232,247);
+  background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
+  box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+}
+
+#about {
+  top: 80px;
+  background: rgb(140,232,247);
+  background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
+  box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+}
+
+#portfolio {
+  top: 140px;
+  background: rgb(140,232,247);
+  background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);;
+  box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+}
+
+#blog {
+  top: 200px;
+  background: rgb(140,232,247);
+  background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
+  box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+}
+
+#contact {
+    top: 260px;
+    background: rgb(140,232,247);
+    background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
+    box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+-moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+  }
