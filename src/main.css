@@ -7,6 +7,7 @@
 @layer base {
   body {
     /* @apply bg-gradient-to-b from-gray-500 via-gray-200 to-gray-200 m-0 w-screen */
+    @apply bg-slate-900
   }
 }
 

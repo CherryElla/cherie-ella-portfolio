@@ -8,7 +8,7 @@
     font-size: 20px;
     color: rgb(153 246 228);
     border-radius:  5px 0 0 5px ;
-    z-index: 50;
+    /* z-index: 50; */
 }
 
 .nav a:hover {

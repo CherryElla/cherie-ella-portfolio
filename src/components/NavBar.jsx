@@ -4,7 +4,7 @@ import './navbar.css'
 // We assign them to their own variable names
 function NavBar({ currentPage, handlePageChange }) {
     return (
-        <ul class="nav nav-tabs flex flex-row space-x-7 h-0">
+        <ul class="nav nav-tabs flex flex-row space-x-7 h-0 fixed z-50">
             <li className="nav-item">
                 <a id="home"
                     href="#home"
