@@ -6,15 +6,17 @@
 
 @layer base {
   body {
-    @apply bg-slate-900
+    /* @apply bg-gradient-to-b from-gray-500 via-gray-200 to-gray-200 m-0 w-screen */
   }
 }
 
 html {
   height: 100%;
+}
 
-}
 body {
-  width: auto;
-  min-height: 100%;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
+

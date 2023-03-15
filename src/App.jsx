@@ -5,8 +5,9 @@ import Home from './components/pages/Home';
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <div class="">
+    <div class=" ">
     <PortfolioMain />
+
     </div>
   );
 }

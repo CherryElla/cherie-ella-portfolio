@@ -6,8 +6,9 @@
     width: 100px;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(140,232,247);
+    color: rgb(153 246 228);
     border-radius:  5px 0 0 5px ;
+    z-index: 50;
 }
 
 .nav a:hover {
@@ -18,7 +19,7 @@
 
 #home {
   top: 20px;
-  background: rgb(140,232,247);
+  background: rgb(153 246 228);
   background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
   box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 -webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
@@ -27,7 +28,7 @@
 
 #about {
   top: 80px;
-  background: rgb(140,232,247);
+  background: rgb(153 246 228);
   background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
   box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 -webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
@@ -36,7 +37,7 @@
 
 #portfolio {
   top: 140px;
-  background: rgb(140,232,247);
+  background: rgb(153 246 228);
   background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);;
   box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 -webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
@@ -45,7 +46,7 @@
 
 #blog {
   top: 200px;
-  background: rgb(140,232,247);
+  background: rgb(153 246 228);
   background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
   box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 -webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
@@ -54,7 +55,7 @@
 
 #contact {
     top: 260px;
-    background: rgb(140,232,247);
+    background: rgb(153 246 228);
     background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
     box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 -webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);

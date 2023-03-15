@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -6,13 +7,27 @@ module.exports = {
       fontFamily: {
         'Rubik+Iso': ['Rubik+Iso'],
         inter: ['Source Code Pro', 'monospace']
+      },
+      boxShadow: {
+        'neon': '0px 0px 30px 10px #0ff' 
+      },
+      keyframes: {
+        'sky': {
+          '0%': 'bg-left-top' ,
+          '100%': 'bg-right-top',
+      },
+      animation: {
+        sky: 'sky 50s linear infinite'
+      },
+      backgroundImage: {
+        'gradient': 'linear-gradient(0deg,#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a)'
       }
-      // backgroundImage: {
-      //   'retro-tv': "url('./src/images/tv.png')"
-      // }
+
     },
   },
   plugins: [
     require('@tailwindcss/forms'),
   ],
-}
+}}
+
+

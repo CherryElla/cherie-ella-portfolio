@@ -1,12 +1,13 @@
 import React from "react";
 
+
 export default function Portfolio() {
     return (
-        <div class="z-10 flex m-9 p-9 grid-cols-3 gap-4 text-purple-800 bg-teal-200">
+        <div class="projectsBox z-10 flex m-9 p-9 grid-cols-3 gap-4 text-purple-800 bg-slate-900">
             <div class="text-center">
                 <img
-                    class="h-80 w-100 object-contain"
-                    src="./src/images/little-tech-blog.png"
+                    class=" projectBox h-80 w-100 object-contain shadow-neon"
+                    src="./src/images/little-tech-blog-pink.png"
                     alt=""
                 />
                 <button
@@ -26,7 +27,7 @@ export default function Portfolio() {
             </div>
             <div class="text-center">
                 <img
-                    class="h-80 w-100 object-scale-down"
+                    class=" projectBox h-80 w-100 object-scale-down shadow-neon"
                     src="./src/images/mate.png"
                     alt=""
                 />
@@ -41,7 +42,7 @@ export default function Portfolio() {
             </div>
             <div class="text-center">
                 <img
-                    class="h-80 w-100 object-contain"
+                    class="projectBox h-80 w-100 object-contain shadow-neon"
                     src="./src/images/old-comp.png"
                     alt=""
                 />
