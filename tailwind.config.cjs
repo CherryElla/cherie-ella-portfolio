@@ -5,8 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Rubik+Iso': ['Rubik+Iso'],
-        inter: ['Source Code Pro', 'monospace']
+        'roboto': ['Roboto', 'sans-serif']
       },
       boxShadow: {
         'neon': '0px 0px 30px 10px #0ff' 

@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <div>
+    <div class="font-roboto">
     <PortfolioMain />
     </div>
   );
