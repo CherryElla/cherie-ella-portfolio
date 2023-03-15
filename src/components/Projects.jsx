@@ -2,58 +2,31 @@ import React from "react";
 
 export default function Projects() {
     return (
-        <div class="projectsBox z-10 flex m-9 p-9 grid-cols-3 gap-4 text-purple-800 bg-slate-900">
-            <div class="text-center">
+        <div class=" projectsBox flex justify-center m-9 p-9 gap-20 text-purple-800 bg-slate-900">
+            <a href="" class="group flex flex-col items-center text-center justify-center relative w-96 ">
                 <img
-                    class=" projectBox h-80 w-100 object-contain shadow-neon"
+                    class=" projectBox h-auto w-100 object-contain shadow-neon group-hover:opacity-5 "
                     src="./src/images/little-tech-blog-pink.png"
-                    alt=""
+                    alt="The Little Tech Blog"
                 />
-                <button
-                    type="button"
-                    data-te-ripple-init
-                    data-te-ripple-color="light"
-                    class="rounded px-6 pt-2.5 pb-2 
-                    text-xs font-medium uppercase 
-                    leading-normal text-primary transition 
-                    duration-150 ease-in-out hover:bg-neutral-100 
-                    hover:text-primary-600 focus:text-primary-600 
-                    focus:outline-none focus:ring-0 active:text-primary-700
-                    dark:hover:bg-neutral-700"
-                >
-                    The Little Tech Blog
-                </button>
-            </div>
-            <div class="text-center">
+                <div class="absolute h-auto w-100 object-contain">The Little Tech Blog</div>
+            </a>
+            <a href="" class="group flex flex-col items-center text-center justify-center relative w-96 ">
                 <img
-                    class=" projectBox h-80 w-100 object-scale-down shadow-neon"
+                    class=" projectBox h-auto w-100 object-scale-down shadow-neon group-hover:opacity-5"
                     src="./src/images/mate.png"
-                    alt=""
+                    alt="M.A.T.E"
                 />
-                <button
-                    type="button"
-                    data-te-ripple-init
-                    data-te-ripple-color="light"
-                    class="rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-neutral-100 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 dark:hover:bg-neutral-700"
-                >
-                    M.A.T.E - Text Editor
-                </button>
-            </div>
-            <div class="text-center">
+                <div class="absolute h-auto w-100 object-contain">My Awesome Text Editor</div>
+            </a>
+            <a href="" class="group flex flex-col items-center text-center justify-center relative w-96">
                 <img
-                    class="projectBox h-80 w-100 object-contain shadow-neon"
+                    class="projectBox h-auto w-100 object-contain shadow-neon group-hover:opacity-5"
                     src="./src/images/old-comp.png"
-                    alt=""
+                    alt="Coming Soon"
                 />
-                <button
-                    type="button"
-                    data-te-ripple-init
-                    data-te-ripple-color="light"
-                    class="rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:bg-neutral-100 hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:text-primary-700 dark:hover:bg-neutral-700"
-                >
-                    Coming Soon
-                </button>
-            </div>
+                <div class="absolute h-auto w-100 object-contain">Coming Soon</div>
+            </a>
         </div>
     );
 }

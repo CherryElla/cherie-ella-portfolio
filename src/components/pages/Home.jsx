@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import About from "./About";
-import Portfolio from "./Portfolio";
+import Projects from "../Projects";
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
                 <About />
             </section>
             <section class="bg-slate-900 pt-20 z-10 ">
-                <Portfolio />
+                <Projects />
             </section>
         </div>
     );
