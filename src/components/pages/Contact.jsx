@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div class="flex flex-col justify-center items-center">
             <h2 class="font-bold text-9xl">CONTACT</h2>
-            <p class="text-2xl">Have a question or want to collaborate?</p>
+            <p class="text-2xl text-gray-300">Have a question or want to collaborate?</p>
             <div class="mt-8 max-w-md">
                 <div class="grid grid-cols-1 gap-6">
                     <label class="block custom-cursor-default-hover">

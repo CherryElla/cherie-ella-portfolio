@@ -7,7 +7,7 @@
     text-decoration: none;
     font-size: 20px;
     color: rgb(153 246 228);
-    border-radius:  5px 0 0 5px ;
+    border-radius:  5px 5px 5px 5px ;
     /* z-index: 50; */
 }
 
@@ -16,48 +16,30 @@
     color: #2c271d;
 }
 
-
-#home {
-  top: 20px;
+#home, #about, #portfolio, #contact, #blog {
   background: rgb(153 246 228);
   background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
   box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 -webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 -moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
+}
+
+#home {
+  top: 20px;
 }
 
 #about {
   top: 80px;
-  background: rgb(153 246 228);
-  background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
-  box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 }
 
 #portfolio {
   top: 140px;
-  background: rgb(153 246 228);
-  background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);;
-  box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 }
 
 #blog {
   top: 200px;
-  background: rgb(153 246 228);
-  background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
-  box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
 }
 
 #contact {
     top: 260px;
-    background: rgb(153 246 228);
-    background: linear-gradient(0deg, rgba(140,232,247,1) 20%, rgba(255,255,255,1) 100%);
-    box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--webkit-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
--moz-box-shadow: 16px 12px 12px 0px rgba(120,120,120,0.62);
   }

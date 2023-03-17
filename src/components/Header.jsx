@@ -14,7 +14,9 @@ export default function Header() {
             <div class=" absolute w-screen h-auto z-10">
                 <img class="w-screen " src="./src/images/cloud.png" alt="" />
             </div>
-            <div class=" absolute w-screen h-auto z-10">
+            <div
+                class=" absolute w-screen h-auto z-10"
+            >
                 <img
                     class="w-screen"
                     src="./src/images/skyline-layer.png"

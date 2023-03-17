@@ -13,9 +13,9 @@ export default function Home() {
                 <About />
             </section>
             <section class="bg-slate-900 pt-20 z-10 ">
+                <h2 class="text-center text-5xl text-gray-300">Projects</h2>
                 <Projects />
             </section>
         </div>
     );
 }
-// z-10 flex m-9 p-9 grid-cols-3 gap-4 text-purple-800 bg-slate-900
