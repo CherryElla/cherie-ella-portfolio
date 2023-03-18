@@ -13,7 +13,7 @@
 
 .nav a:hover {
     left: 0;
-    color: #2c271d;
+    color: orange;
 }
 
 #home, #about, #portfolio, #contact, #blog {
@@ -42,4 +42,4 @@
 
 #contact {
     top: 260px;
-  }
+}

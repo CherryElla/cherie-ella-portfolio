@@ -3,33 +3,35 @@ import "./header.css";
 
 export default function Header() {
     return (
-        <header class="flex w-screen h-auto ">
-            <div class="headerBg w-screen h-auto z-10">
-                <img
-                    class="w-screen "
-                    src="./src/images/tr-pink-moon.png"
-                    alt=""
-                />
-            </div>
-            <div class=" absolute w-screen h-auto z-10">
-                <img class="w-screen " src="./src/images/cloud.png" alt="" />
-            </div>
-            <div
-                class=" absolute w-screen h-auto z-10"
-            >
-                <img
-                    class="w-screen"
-                    src="./src/images/skyline-layer.png"
-                    alt=""
-                />
-            </div>
-            <div class=" absolute w-screen h-auto z-10">
-                <img
-                    class="w-screen"
-                    src="./src/images/new-section.png"
-                    alt=""
-                />
-            </div>
+        <header>
+            <img
+                className="parallax-item translate-z-4 -z-50"
+                src="./src/images/orange-moon.png"
+                alt="orange moon"
+            />
+            <img
+                className="parallax-item translate-z-3 -z-40"
+                src="./src/images/cloud-layer-1.png"
+                alt="clouds"
+            />
+            <img
+                className="parallax-item translate-z-3 -z-40"
+                src="./src/images/cloud-layer-2.png"
+                alt="clouds"
+            />
+            <img
+                className="parallax-item translate-z-1 -z-30"
+                src="./src/images/skyline-layer.png"
+                alt="futuristic skyline"
+            />
+            {/* <img
+                className="parallax-item translate-z-0 -z-20"
+                src="./src/images/new-section.png"
+                alt="divider"
+            /> */}
+            {/* <h1>
+                Yo
+            </h1> */}
         </header>
     );
 }
