@@ -6,7 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 
-export default function PortfolioMain() {
+export default function pageLoader() {
     const [currentPage, setCurrentPage] = useState("Home");
 
     // Check the value of `currentPage` is and return the corresponding component to render.

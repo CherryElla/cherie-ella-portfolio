@@ -25,7 +25,7 @@
 
   .parallax-wrapper .parallax-item {
     /* @apply absolute object-cover w-screen; */
-    @apply absolute object-cover w-screen h-screen;
+    @apply absolute  w-screen h-screen;
   }
  
   /* Scale = (Perspective - Translation ) / perspective */

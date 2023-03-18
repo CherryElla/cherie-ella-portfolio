@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
     return (
-        <div className=" projectsBox flex justify-center m-9 p-9 gap-20 text-orange-600 bg-slate-900">
+        <div className=" projectsBox flex flex-wrap justify-center m-9 p-9 gap-20 text-orange-600 bg-slate-900 pt-20">
             <a href="https://the-little-tech-blog.herokuapp.com/" target="_blank"className="group flex flex-col items-center text-center justify-center relative w-96 ">
                 <img
                     className=" projectBox h-auto w-100 object-contain shadow-neon group-hover:opacity-10 transition duration-300 ease-in-out hover:scale-110 rounded-md"
