@@ -8,13 +8,10 @@ export default function Home() {
     return (
         <>
             <Header />
-            <img className="" src="./src/images/section.png" alt="divider" />
-            <div className="bg-slate-900 "> 
+            <img className="w-screen" src="./src/images/layer-trees.png" alt="divider" />
+            <div className="bg-slate-900"> 
                 <section className="">
-                    <h2>
-                        
-                    </h2>
-                    {/* <About /> */}
+                    <About />
                 </section>
                 <section className="pt-20">
                     <h2 className="text-center text-5xl text-gray-300">

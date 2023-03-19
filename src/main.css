@@ -25,24 +25,24 @@
 
   .parallax-wrapper .parallax-item {
     /* @apply absolute object-cover w-screen; */
-    @apply absolute  w-screen h-screen;
+    @apply absolute object-cover w-screen h-auto;
   }
  
   /* Scale = (Perspective - Translation ) / perspective */
   .parallax-wrapper .translate-z-4 {
-    transform: translateZ(-40px) scale(5);
+    transform: translateZ(-60px) scale(8);
   }
   .parallax-wrapper .translate-z-3 {
-    transform: translateZ(-30px) scale(4);
+    transform: translateZ(-50px) scale(7);
   }
   .parallax-wrapper .translate-z-2 {
-    transform: translateZ(-20px) scale(3.);
+    transform: translateZ(-40px) scale(6);
   }
   .parallax-wrapper .translate-z-1 {
-    transform: translateZ(-10px) scale(2);
+    transform: translateZ(-30px) scale(3.5);
   }
   .parallax-wrapper .translate-z-0 {
-    transform: scale(1.);
+    transform: translateZ(-10px) scale(2);
   }
 
 }
