@@ -1,28 +1,28 @@
 import React from "react";
 import Header from "../Header";
 import About from "./About";
-import Projects from "../Projects";
 import Blog from "./Blog";
+import NavBar from "../NavBar";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 export default function Home() {
     return (
         <>
+            <NavBar />
             <Header />
-            <img className="w-screen" src="./src/images/layer-trees.png" alt="divider" />
-            <div className="bg-slate-900"> 
+            <div className="bg-slate-900 pb-10">
                 <section className="">
                     <About />
                 </section>
                 <section className="pt-20">
-                    <h2 className="text-center text-5xl text-gray-300">
-                        Projects
-                    </h2>
-                    <Projects />
+                    <Portfolio />
                 </section>
                 <section className="pt-20">
-                    <h2
-                    className="text-center text-5xl text-gray-300"></h2>
                     <Blog />
+                </section>
+                <section>
+                    <Contact/>
                 </section>
             </div>
         </>

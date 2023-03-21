@@ -12,38 +12,7 @@
   }
 
 
-  .parallax-wrapper {
-    @apply h-screen overflow-y-auto overflow-x-hidden;
-    perspective: 10px;
-  } 
 
-  .parallax-wrapper header {
-    @apply relative flex justify-center items-center h-screen;
-    transform-style: preserve-3d;
-    z-index: -1;
-  }
-
-  .parallax-wrapper .parallax-item {
-    /* @apply absolute object-cover w-screen; */
-    @apply absolute object-cover w-screen h-auto;
-  }
- 
-  /* Scale = (Perspective - Translation ) / perspective */
-  .parallax-wrapper .translate-z-4 {
-    transform: translateZ(-60px) scale(8);
-  }
-  .parallax-wrapper .translate-z-3 {
-    transform: translateZ(-50px) scale(7);
-  }
-  .parallax-wrapper .translate-z-2 {
-    transform: translateZ(-40px) scale(6);
-  }
-  .parallax-wrapper .translate-z-1 {
-    transform: translateZ(-30px) scale(3.5);
-  }
-  .parallax-wrapper .translate-z-0 {
-    transform: translateZ(-10px) scale(2);
-  }
 
 }
 

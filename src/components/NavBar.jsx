@@ -1,70 +1,72 @@
 import React from "react";
-import './navbar.css'
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
-function NavBar({ currentPage, handlePageChange }) {
+
+
+// Navbar Component function
+function NavBar() {
     return (
-        <ul className="nav nav-tabs flex flex-row space-x-7 h-0 fixed z-50">
-            <li className="nav-item">
-                <a id="home"
-                    href="#home"
-                    onClick={() => handlePageChange("Home")}
-                    // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className={
-                        currentPage === "Home" ? "nav-link active" : "nav-link"
-                    }
+        <ul className="nav nav-tabs flex flex-col fixed z-50 p-5 pt-5 text-l gap-5 ">
+            <li className="nav-item ">
+                <a
+                    href="#"
+                    className=" p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20 "
+                    // onClick={(e) => {
+                    //     let home = document.getElementById("home");
+                    //     e.preventDefault(); // Stop Page Reloading
+                    //     home && home.scrollIntoView();
+                    // }}
                 >
                     Home
                 </a>
             </li>
-            <li className="nav-item">
-                <a id="about"
+            <li className="nav-item ">
+                <a
+
                     href="#about"
-                    onClick={() => handlePageChange("About")}
-                    // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={
-                        currentPage === "About" ? "nav-link active" : "nav-link"
-                    }
+                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
+                    // onClick={(e) => {
+                    //     let about = document.getElementById("about");
+                    //     e.preventDefault(); 
+                    //     about && about.scrollIntoView();
+                    // }}
                 >
                     About
                 </a>
             </li>
-                <li className="nav-item">
-                <a id="portfolio"
+            <li className="nav-item">
+                <a
                     href="#portfolio"
-                    onClick={() => handlePageChange("Portfolio")}
-                    // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className={
-                        currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-                    }
+                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
+                    // onClick={(e) => {
+                    //     let portfolio = document.getElementById("portfolio");
+                    //     e.preventDefault();
+                    //     portfolio && portfolio.scrollIntoView();
+                    // }}
                 >
                     Portfolio
                 </a>
-            </li> 
+            </li>
             <li className="nav-item">
-                <a id="blog"
+                <a
                     href="#blog"
-                    onClick={() => handlePageChange("Blog")}
-                    // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={
-                        currentPage === "Blog" ? "nav-link active" : "nav-link"
-                    }
+                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
+                    // onClick={(e) => {
+                    //     let blog = document.getElementById("blog");
+                    //     e.preventDefault();
+                    //     Blog && Blog.scrollIntoView();
+                    // }}
                 >
                     Blog
                 </a>
-                </li>
+            </li>
             <li className="nav-item">
-                <a id="contact"
+                <a
                     href="#contact"
-                    onClick={() => handlePageChange("Contact")}
-                    // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={
-                        currentPage === "Contact"
-                            ? "nav-link active"
-                            : "nav-link"
-                    }
+                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
+                    // onClick={(e) => {
+                    //     let contact = document.getElementById("contact");
+                    //     e.preventDefault();
+                    //     contact && contact.scrollIntoView();
+                    // }}
                 >
                     Contact
                 </a>

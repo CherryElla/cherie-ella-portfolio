@@ -1,52 +1,63 @@
-import React from "react";
-
-function parallax () {
-    let { scrollY } = window;
-
-    road.style.top = 0.5 * scrollY + 'px';
-    mountain.style.top = (150 +0.05 * scrollY) + 'px'; 
-    moon.style.left = 1.1 * scrollY + 'px';
-    sky.style.top = -1.2 * scrollY + 'px';
-    midnight.style.top = (120 + -1.5 * scrollY) + 'px';
-}
+import { React, useEffect, useState } from "react";
 
 export default function Header() {
+    useEffect(() => {
+        function scrollEffect(e) {
+            let { scrollY } = window;
+            let nameText = document.getElementById("nameText");
+            let clouds1 = document.getElementById("clouds1");
+            let moon = document.getElementById("moon");
+            let clouds2 = document.getElementById("clouds2");
+            let trees = document.getElementById("trees");
+
+            nameText.style.top = 450 + -0.5 * scrollY + "px";
+            clouds1.style.top = 125 + -1.25 * scrollY + "px";
+            // moon.style.left = 1.1 * scrollY + "px";
+            clouds2.style.top = 125 + -1.25 * scrollY + "px";
+            moon.style.top = 150 + -1.5 * scrollY + "px";
+            trees.style.top = 200 + -1 * scrollY + "px";
+        }
+        window.addEventListener("scroll", scrollEffect);
+        return () => {
+            window.removeEventListener("scroll", scrollEffect);
+        };
+    }, []);
+
     return (
-        <header className="">
-                        <div className="parallax-item translate-z-0 ">
-            <h1 className="text-center text-gray-200 text-8xl ">
+        <div className="relative w-screen h-screen flex items-center justify-center">
+            <h1
+                id="nameText"
+                className=" absolute left-55  h-screen object-cover pointer-events-none -z-20 text-gray-200 text-8xl "
+            >
                 Cherie Ella
             </h1>
-            </div>
-            <div className="parallax-item translate-z-1">
-                <img
-                    className="w-screen p-9"
-                    src="./src/images/moon.png"
-                    alt="orange moon"
-                />
-            </div>
-            <div className="parallax-item translate-z-2 ">
-                <img
-                    className="w-screen"
-                    src="./src/images/cloud-layer-1.png"
-                    alt="clouds"
-                />
-            </div>
-            <div className="parallax-item translate-z-2 ">
+
             <img
-                className="w-screen"
+                className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-40"
+                src="./src/images/moon.png"
+                alt="orange moon"
+                id="moon"
+            />
+
+            <img
+                className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-30"
+                src="./src/images/cloud-layer-1.png"
+                alt="clouds"
+                id="clouds1"
+            />
+
+            <img
+                className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-30"
                 src="./src/images/cloud-layer-2.png"
                 alt="clouds"
+                id="clouds2"
             />
-            </div>
-            {/* <div className="parallax-item translate-z- ">
             <img
-                className="w-screen"
-                src="./src/images/skyline.png"
-                alt="futuristic skyline"
+                id="trees"
+                className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-20"
+                src="./src/images/tree-layer.png"
+                alt="divider"
             />
-            </div> */}
-
-        </header>
+        </div>
     );
 }
