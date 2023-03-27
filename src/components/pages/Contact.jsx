@@ -26,7 +26,7 @@ const ContactUs = () => {
 
     return (
         <>
-        <h2 className="text-center pt-10 text-gray-300 text-5xl">Contact</h2>
+        <h2 className="text-center py-10 text-gray-300 text-5xl">Contact</h2>
         <p className="text-center m-3 text-gray-300">Send me a message if you have any questions or would like to collaborate!</p>
         <form
             className="m-5 grid place-items-center"

@@ -8,67 +8,42 @@ function NavBar() {
             <li className="nav-item ">
                 <a
                     href="#"
-                    className=" p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20 "
-                    // onClick={(e) => {
-                    //     let home = document.getElementById("home");
-                    //     e.preventDefault(); // Stop Page Reloading
-                    //     home && home.scrollIntoView();
-                    // }}
+                    className=" p-5 hover:text-orange-500 shadow-2xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20 "
                 >
-                    Home
+                    <small className=" align-middle">Home</small>
                 </a>
             </li>
             <li className="nav-item ">
                 <a
 
                     href="#about"
-                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
-                    // onClick={(e) => {
-                    //     let about = document.getElementById("about");
-                    //     e.preventDefault(); 
-                    //     about && about.scrollIntoView();
-                    // }}
+                    className="p-5 hover:text-orange-500 shadow-2xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
                 >
-                    About
+                    <small className=" align-middle">About</small>
                 </a>
             </li>
             <li className="nav-item">
                 <a
                     href="#portfolio"
-                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
-                    // onClick={(e) => {
-                    //     let portfolio = document.getElementById("portfolio");
-                    //     e.preventDefault();
-                    //     portfolio && portfolio.scrollIntoView();
-                    // }}
+                    className="p-5 hover:text-orange-500 shadow-2xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
                 >
-                    Portfolio
+                    <small className=" align-middle">Portfolio</small>
                 </a>
             </li>
             <li className="nav-item">
                 <a
                     href="#blog"
-                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
-                    // onClick={(e) => {
-                    //     let blog = document.getElementById("blog");
-                    //     e.preventDefault();
-                    //     Blog && Blog.scrollIntoView();
-                    // }}
+                    className="p-5 hover:text-orange-500 shadow-2xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
                 >
-                    Blog
+                    <small className=" align-middle">Blog</small>
                 </a>
             </li>
             <li className="nav-item">
                 <a
                     href="#contact"
-                    className="p-5 hover:text-orange-500 shadow-xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
-                    // onClick={(e) => {
-                    //     let contact = document.getElementById("contact");
-                    //     e.preventDefault();
-                    //     contact && contact.scrollIntoView();
-                    // }}
+                    className="p-5 hover:text-orange-500 shadow-2xl hover:shadow-orange-400 [writing-mode:vertical-lr] rounded-full w-20 h-20"
                 >
-                    Contact
+                    <small className="align-middle">Contact</small>
                 </a>
             </li>
         </ul>

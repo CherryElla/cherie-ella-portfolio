@@ -21,7 +21,7 @@ export default function Home() {
                 <section className="pt-20">
                     <Blog />
                 </section>
-                <section>
+                <section className="pt-20">
                     <ContactUs/>
                 </section>
             </div>

@@ -5,14 +5,14 @@ export default function Header() {
         function scrollEffect(e) {
             let { scrollY } = window;
             let nameText = document.getElementById("nameText");
-            let clouds1 = document.getElementById("clouds1");
+            // let clouds1 = document.getElementById("clouds1");
             let moon = document.getElementById("moon");
             let clouds2 = document.getElementById("clouds2");
             let trees = document.getElementById("trees");
 
             nameText.style.top = 450 + -0.5 * scrollY + "px";
-            clouds1.style.top = 125 + -1.25 * scrollY + "px";
-            clouds2.style.top = 125 + -1.25 * scrollY + "px";
+            // clouds1.style.top = 125 + -1.25 * scrollY + "px";
+            clouds2.style.top = 125 + -0.5 * scrollY + "px";
             moon.style.top = 150 + -1.5 * scrollY + "px";
             trees.style.top = 200 + -1 * scrollY + "px";
         }
@@ -40,21 +40,20 @@ export default function Header() {
 
             <img
                 className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-30"
-                src="./src/images/cloud-layer-1.png"
-                alt="clouds"
-                id="clouds1"
-            />
-
-            <img
-                className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-30"
-                src="./src/images/cloud-layer-2.png"
+                src="./src/images/cloud-layer-base.png"
                 alt="clouds"
                 id="clouds2"
             />
+                        {/* <img
+                className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-30"
+                src="./src/images/cloud-layer-top.png"
+                alt="clouds"
+                id="clouds1"
+            /> */}
             <img
-                id="trees"
+                id="clouds1"
                 className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-20"
-                src="./src/images/tree-layer.png"
+                src="./src/images/cloud-layer-cover.png"
                 alt="divider"
             />
         </div>

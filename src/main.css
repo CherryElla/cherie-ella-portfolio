@@ -8,6 +8,7 @@
   body {
     /* @apply bg-gradient-to-b from-gray-500 via-gray-200 to-gray-200 m-0 w-screen */
     @apply bg-slate-900;
+    @apply dark:bg-emerald-300;
     @apply m-0;
   }
 
