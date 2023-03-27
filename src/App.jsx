@@ -16,8 +16,8 @@ function App() {
     setTheme(theme === "dark" ? "light" : "dark");
   }
   return (
-    <div className="font-roboto">
-      <button className='bg-yellow-300 p-4 rounded-3xl float-right'onClick={handleTheme}>Sun Mode</button>
+    <div className="font-roboto ">
+      <button className='bg-yellow-300 text-blue-900 p-3 mt-1 rounded-3xl float-right'onClick={handleTheme}>Sun Mode</button>
     <Home />
     </div>
   );
