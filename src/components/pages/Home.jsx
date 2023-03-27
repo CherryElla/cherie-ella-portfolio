@@ -4,7 +4,7 @@ import About from "./About";
 import Blog from "./Blog";
 import NavBar from "../NavBar";
 import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import ContactUs from "./Contact";
 
 export default function Home() {
     return (
@@ -22,7 +22,7 @@ export default function Home() {
                     <Blog />
                 </section>
                 <section>
-                    <Contact/>
+                    <ContactUs/>
                 </section>
             </div>
         </>

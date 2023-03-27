@@ -1,44 +1,74 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-export default function Contact() {
+const ContactUs = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_rzypq2z",
+                "template_z6d4q9d",
+                form.current,
+                "gXkhtTUPc_Vt_A8oj"
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+    };
+
     return (
-        <div id="contact" className="flex flex-col justify-center items-center pt-20">
-            <h2 className="text-5xl text-gray-300">CONTACT</h2>
-            <p className="text-2xl text-gray-300 pt-10">
-                Have a question or want to collaborate?
-            </p>
-            {/* Form html below */}
-            <form className="pt-10">
-                <label className="block">
-                    <span className="block text-sm font-medium text-slate-700">
-                        Name
-                    </span>
-                    <input
-                        type="text"
-                        className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-                        focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
-                    />
-                    <span className="block text-sm font-medium text-slate-700">
-                        Email
-                    </span>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        class="px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1 invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 disabled:shadow-none"
-                        placeholder="you@example.com"
-                    ></input>
-                    <span className="block text-sm font-medium text-slate-700">
-                        Message
-                    </span>
-                    <input
-                        type="text"
-                        className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-                        focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
-                        disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none"
-                    />
-                </label>
-            </form>
-        </div>
+        <>
+        <h2 className="text-center pt-10 text-gray-300 text-5xl">Contact</h2>
+        <p className="text-center m-3 text-gray-300">Send me a message if you have any questions or would like to collaborate!</p>
+        <form
+            className="m-5 grid place-items-center"
+            ref={form}
+            onSubmit={sendEmail}
+            method="POST"
+            target="_blank">
+            <div className="mb-3 w-1/2">
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    name="user_name"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus: ring w-full"
+                    required
+                />
+            </div>
+            <div className="mb-3 pt-0 w-1/2">
+                <input
+                    type="email"
+                    placeholder="Email"
+                    name="user_email"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus: ring w-full"
+                    required
+                />
+            </div>
+            <div className="mb-3 pt-0 w-1/2">
+                <textarea
+                    placeholder="Your message"
+                    name="message"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus: ring w-full"
+                    required
+                />
+            </div>
+            <div className="mb-3 pt-0">
+                <button className="[background-color:#a7d9d0] [color:#11402F]  active:bg-neutral-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="submit"
+                >
+                    Send Message
+                </button>
+            </div>
+        </form>
+        </>
     );
-}
+};
+export default ContactUs;

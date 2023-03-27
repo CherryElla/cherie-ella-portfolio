@@ -12,7 +12,6 @@ export default function Header() {
 
             nameText.style.top = 450 + -0.5 * scrollY + "px";
             clouds1.style.top = 125 + -1.25 * scrollY + "px";
-            // moon.style.left = 1.1 * scrollY + "px";
             clouds2.style.top = 125 + -1.25 * scrollY + "px";
             moon.style.top = 150 + -1.5 * scrollY + "px";
             trees.style.top = 200 + -1 * scrollY + "px";
@@ -29,7 +28,7 @@ export default function Header() {
                 id="nameText"
                 className=" absolute left-55  h-screen object-cover pointer-events-none -z-20 text-gray-200 text-8xl "
             >
-                Cherie Ella
+                Hello..
             </h1>
 
             <img
