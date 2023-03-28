@@ -12,7 +12,7 @@ export default function Blog() {
                 >
                     <img
                         className=" projectBox h-auto w-100 object-contain shadow-neon group-hover:opacity-10 transition duration-300 ease-in-out hover:scale-110 rounded-md"
-                        src="./src/images/moonlander-grey.png"
+                        src="/images/moonlander-grey.png"
                         alt="The Little Tech Blog"
                     />
                     <div className="absolute h-auto w-100 object-contain">
@@ -26,7 +26,7 @@ export default function Blog() {
                 >
                     <img
                         className=" projectBox h-auto w-100 object-scale-down shadow-neon group-hover:opacity-10 transition duration-300 ease-in-out hover:scale-110 rounded-md"
-                        src="./src/images/code.png"
+                        src="/images/code.png"
                         alt="M.A.T.E"
                     />
                     <div className="absolute h-auto w-100 object-contain">

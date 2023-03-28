@@ -6,7 +6,7 @@ export default function About() {
                             <img
                 id="trees"
                 className="w-screen fixed left-0 top-0 h-screen object-cover pointer-events-none -z-20"
-                src="./src/images/tree-layer.png"
+                src="/images/tree-layer.png"
                 alt="divider"
             />
             <h1 className="text-gray-300 text-5xl py-10 text-center">About</h1>
@@ -28,7 +28,7 @@ export default function About() {
             <div className="absolute opacity-10">
                 <img
                     className=""
-                    src="./src/images/me-blue.png"
+                    src="/images/me-blue.png"
                     alt="Cherie Ella Viens"
                 />
             </div>

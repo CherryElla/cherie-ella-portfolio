@@ -33,27 +33,27 @@ export default function Header() {
 
             <img
                 className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-40"
-                src="./src/images/moon.png"
+                src="/images/moon.png"
                 alt="orange moon"
                 id="moon"
             />
 
             <img
                 className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-30"
-                src="./src/images/cloud-layer-base.png"
+                src="/images/cloud-layer-base.png"
                 alt="clouds"
                 id="clouds2"
             />
                         {/* <img
                 className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-30"
-                src="./src/images/cloud-layer-top.png"
+                src="/images/cloud-layer-top.png"
                 alt="clouds"
                 id="clouds1"
             /> */}
             <img
                 id="clouds1"
                 className="w-screen absolute left-0 top-0 h-screen object-cover pointer-events-none -z-20"
-                src="./src/images/cloud-layer-cover.png"
+                src="/images/cloud-layer-cover.png"
                 alt="divider"
             />
         </div>
