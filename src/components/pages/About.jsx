@@ -2,17 +2,16 @@ import React from "react";
 
 export default function About() {
     return (
-            <div className="">
-                            <img
-                id="trees"
-                className="w-screen fixed left-0 top-0 h-screen object-cover pointer-events-none -z-20"
+            <div className="pt-20">
+                <img
+                className="w-screen fixed left-0 top-0 h-screen object-cover pointer-events-none -z-10"
                 src="/images/tree-layer.png"
                 alt="divider"
             />
-            <h1 className="text-gray-300 text-5xl py-10 text-center">About</h1>
-            <div id="about" className="flex flex-wrap h-100 px-20 justify-center">
+            <h1 className="text-gray-300 text-5xl pb-20 text-center">About</h1>
+            <div  className="flex flex-wrap h-100 px-32 justify-center">
             <p className=" text-gray-300 text-2xl">
-                Hiya! I'm <span className="text-teal-200">Cherie (Cherry) Ella</span>{" "}
+                Hiya! I'm <span className="text-teal-200">Cherie (Cherry) Ella</span>
                 a Web Developer with endless excitement for technology and all
                 things futuristic. <br /> <br />
                 My lifelong fascination with computers, gaming, and internet
@@ -22,7 +21,7 @@ export default function About() {
                 and now build websites and projects with JavaScript, Node.js,
                 React and more. <br /> <br />
                 If I'm not breaking and building code, you can find me immersed
-                in physical art projects or in softwares like Affinity Photo.{" "}
+                in physical art projects or in softwares like Affinity Photo.
                 <br /> <br />
             </p>
             <div className="absolute opacity-10">

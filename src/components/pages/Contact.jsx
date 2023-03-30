@@ -27,9 +27,10 @@ const ContactUs = () => {
     return (
         <>
         <h2 className="text-center py-10 text-gray-300 text-5xl">Contact</h2>
-        <p className="text-center m-3 text-gray-300">Send me a message if you have any questions or would like to collaborate!</p>
+        <p className="text-center m-5 text-gray-300">Send me a message if you have any questions or would like to collaborate!</p>
         <form
-            className="m-5 grid place-items-center"
+            id="contact"
+            className="pt-10 grid place-items-center"
             ref={form}
             onSubmit={sendEmail}
             method="POST"
@@ -61,7 +62,7 @@ const ContactUs = () => {
                 />
             </div>
             <div className="mb-3 pt-0">
-                <button className="[background-color:#a7d9d0] [color:#11402F]  active:bg-neutral-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                <button className="bg-teal-300 shadow-neon mt-10 to-slate-900  active:bg-neutral-700 font-bold uppercase text-sm px-6 py-3 rounded hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
                 >
                     Send Message

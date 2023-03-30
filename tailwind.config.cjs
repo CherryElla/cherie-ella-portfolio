@@ -13,6 +13,7 @@ module.exports = {
             },
             boxShadow: {
                 neon: "0px 0px 30px 10px #0ff",
+                sunlit: "0px 0px 30px 10px #DA6F1E"
             },
             keyframes: {
                 sky: {
