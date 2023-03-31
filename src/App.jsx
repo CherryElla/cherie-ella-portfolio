@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
-import DarkTheme from "./components/DarkTheme";
+// import DarkTheme from "./components/DarkTheme";
 import BlogPost from "./components/pages/BlogPost";
 
 function App() {

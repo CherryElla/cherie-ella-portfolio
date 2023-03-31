@@ -12,23 +12,23 @@ export default function Home() {
     return (
         <>
             <NavBar />
-            <DarkTheme/>    
+            <DarkTheme />
             <Header />
-            <div className="bg-slate-900 pb-10">
+            <div className="bg-slate-900 mb-10">
                 <section id="about" className="">
-                    <About/>
+                    <About />
                 </section>
-                <section className="pt-20">
-                    <Portfolio/>
+                <section className="mt-20">
+                    <Portfolio />
                 </section>
-                <section className="pt-20">
-                    <Blog/>
+                <section className="mt-20">
+                    <Blog />
                 </section>
-                <section className="pt-20">
-                    <ContactUs/>
+                <section className="mt-20">
+                    <ContactUs />
                 </section>
-                <section className="pt-20">
-                    <Footer/>
+                <section className="mt-20">
+                    <Footer />
                 </section>
             </div>
         </>

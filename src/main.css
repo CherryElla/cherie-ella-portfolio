@@ -12,7 +12,9 @@
     /* @apply dark:bg-cyan-800; */
     @apply m-0;
   }
-
+p {
+  @apply mb-5
+}
 
 
 

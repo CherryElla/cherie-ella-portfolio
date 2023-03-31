@@ -26,11 +26,11 @@ const ContactUs = () => {
 
     return (
         <>
-        <h2 className="text-center py-10 text-gray-300 text-5xl">Contact</h2>
-        <p className="text-center m-5 text-gray-300">Send me a message if you have any questions or would like to collaborate!</p>
+        <h2 className="text-center sm:mt-32  text-gray-300 text-5xl">Contact</h2>
+        <p className="text-center p-14 text-teal-300">Have any questions or would like to collaborate?</p>
         <form
             id="contact"
-            className="pt-10 grid place-items-center"
+            className=" grid place-items-center mb-20"
             ref={form}
             onSubmit={sendEmail}
             method="POST"
@@ -40,7 +40,7 @@ const ContactUs = () => {
                     type="text"
                     placeholder="Your Name"
                     name="user_name"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus: ring w-full"
+                    className="px-3 py-3 shadow-neon placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0  outline-none focus:outline-none focus: ring w-full"
                     required
                 />
             </div>
@@ -49,7 +49,7 @@ const ContactUs = () => {
                     type="email"
                     placeholder="Email"
                     name="user_email"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus: ring w-full"
+                    className="px-3 py-3 shadow-neon placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0  outline-none focus:outline-none focus: ring w-full"
                     required
                 />
             </div>
@@ -57,12 +57,12 @@ const ContactUs = () => {
                 <textarea
                     placeholder="Your message"
                     name="message"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus: ring w-full"
+                    className="px-3 py-3 shadow-neon placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0  outline-none focus:outline-none focus: ring w-full"
                     required
                 />
             </div>
-            <div className="mb-3 pt-0">
-                <button className="bg-teal-300 shadow-neon mt-10 to-slate-900  active:bg-neutral-700 font-bold uppercase text-sm px-6 py-3 rounded hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+            <div className="mb-5 pt-0">
+                <button className="bg-teal-300 hover:shadow-neon mt-10 to-slate-900  active:bg-neutral-700 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
                 >
                     Send Message

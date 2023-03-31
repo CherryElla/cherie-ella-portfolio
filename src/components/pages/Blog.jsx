@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 
 export default function Blog() {
     return (
-        <div id="blog" className="pt-20 ">
-            <h2 className="text-center text-gray-300 text-5xl pb-10 ">Blog</h2>
+        <div id="blog" className="sm:mt-32 ">
+            <h2 className="text-center text-gray-300 text-5xl">Blog</h2>
             <div className=" projectsBox flex flex-wrap justify-center m-9 p-9 gap-20 text-orange-600">
                 <Link
                     to="/blog-post"
-                    target="_blank"
                     className="group flex flex-col items-center text-center justify-center relative w-96 "
                 >
                     <img
@@ -22,7 +21,6 @@ export default function Blog() {
                 </Link>
                 <a
                     href=""
-                    target="_blank"
                     className="group flex flex-col items-center text-center justify-center relative w-96 "
                 >
                     <img
