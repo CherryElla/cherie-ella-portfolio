@@ -27,7 +27,7 @@ export default function Header() {
     }, []);
 
     return (
-        <div id="home" className="relative w-screen h-screen flex items-center justify-center">
+        <div id="home" className=" relative w-screen h-screen flex items-center justify-center">
             <h1
                 id="nameText"
                 className=" absolute left-55  h-screen object-cover pointer-events-none -z-20 text-gray-200 text-8xl "

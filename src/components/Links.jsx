@@ -7,13 +7,13 @@ export default function Links() {
 return (
 <>
 <div className="flex flew-row gap-5 justify-center pt-5">
-<a className="text-teal-300 animate-bounce" href="https://github.com/CherryElla">
+<a className="text-teal-300 hover:text-orange-400 animate-bounce" href="https://github.com/CherryElla">
     <FaGithub size={40}/>
 </a>
-<a className="text-teal-300 animate-bounce" href="https://www.linkedin.com/in/cherryella/">
+<a className="text-teal-300 hover:text-orange-400 animate-bounce" href="https://www.linkedin.com/in/cherryella/">
     <FaLinkedin size={40}/>
 </a>
-<a className="text-teal-300 animate-bounce" href="https://twitter.com/CherieElla">
+<a className="text-teal-300 hover:text-orange-400 animate-bounce" href="https://twitter.com/CherieElla">
     <FaTwitter size={40}/>
 </a>
 </div>
