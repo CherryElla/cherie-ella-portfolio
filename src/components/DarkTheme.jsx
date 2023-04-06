@@ -17,10 +17,10 @@ export default function DarkTheme() {
     return (
     <div className="absolute right-0 m-2 z-50">
         <button
-            className="dark:bg-cyan-800 bg-yellow-300 dark:text-yellow-400 text-blue-900 p-3 mt-1 rounded-3xl float-right"
+            className="dark:bg-cyan-800 bg-yellow-300 shadow drop-shadow-lg dark:text-yellow-400 text-blue-900 p-3 mt-1 rounded-3xl float-right"
             onClick={handleTheme}
         >
-            {theme === "light" ? <FaSun /> : <FaMoon />}
+            {theme === "dark" ? <FaSun /> : <FaMoon />}
         </button>
     </div>
     );

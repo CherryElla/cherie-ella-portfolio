@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
-import DarkTheme from "../DarkTheme"
 
 export default function BlogPost() {
     return (

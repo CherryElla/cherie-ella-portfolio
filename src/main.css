@@ -1,27 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-  body {
-    /* @apply bg-gradient-to-b from-gray-500 via-gray-200 to-gray-200 m-0 w-screen */
-    @apply bg-slate-900;
-    @apply dark:bg-emerald-300;
-    /* @apply dark:bg-cyan-800; */
-    @apply m-0;
-  }
-p {
-  @apply mb-6
+    body {
+        /* @apply bg-gradient-to-b from-gray-500 via-gray-200 to-gray-200 m-0 w-screen */
+        @apply dark:bg-slate-900;
+        @apply bg-emerald-300;
+        /* @apply dark:bg-cyan-800; */
+        @apply m-0;
+    }
+    p {
+        @apply mb-6;
+    }
+    h3 {
+        @apply text-teal-300 mb-1;
+    }
 }
-h3 {
-  @apply text-teal-300 mb-1
-}
-
-
-
-}
-
-
-
