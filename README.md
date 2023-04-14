@@ -8,6 +8,7 @@
 Welcome to my portfolio created with React, Tailwind, and Vite. I wanted to create a space that reflected my fascination for both nature and futurism, combining them into a creative and interactive single page application. <br><br> 
 Check out my demo projects, blog, and message me for collaborations.
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 </td></tr></table>
 
 ## Deployed Projects
