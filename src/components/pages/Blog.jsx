@@ -5,7 +5,7 @@ export default function Blog() {
     return (
         <div id="blog" className="sm:mt-32 ">
             <h2 className="text-center text-gray-300 text-5xl">Blog</h2>
-            <div className=" projectsBox flex flex-wrap justify-center m-9 p-9 gap-20 text-orange-600">
+            <div className=" projectsBox flex flex-wrap justify-center m-9 p-9 gap-20 text-teal-500 font-bold">
                 <Link
                     to="/blog-post"
                     className="group flex flex-col items-center text-center justify-center relative w-96 "
@@ -15,7 +15,7 @@ export default function Blog() {
                         src="/images/moonlander-grey.png"
                         alt="The Little Tech Blog"
                     />
-                    <div className="absolute h-auto w-100 object-contain">
+                    <div className="absolute h-auto w-100 object-contain bg-slate-900 p-1 rounded">
                         Moonlander Keyboard
                     </div>
                 </Link>
@@ -28,7 +28,7 @@ export default function Blog() {
                         src="/images/code.png"
                         alt="M.A.T.E"
                     />
-                    <div className="absolute h-auto w-100 object-contain">
+                    <div className="absolute h-auto w-100 object-contain bg-slate-900 p-1 rounded">
                         Coming Soon
                     </div>
                 </a>
