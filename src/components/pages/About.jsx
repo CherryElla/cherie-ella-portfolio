@@ -33,7 +33,7 @@ export default function About() {
                     </span>
                     <span>&nbsp;Technical Skills: &nbsp;</span>
                     <span className=" text-teal-200">
-                        React, Node.js, Apollo, TailwindCSS, Vite 
+                        React, Node.js, Express.js, Node.js, TailwindCSS, Vite, MySQL, NoSQL, MongoDB, Apollo, GraphQL 
                     </span>
                     </p>
             </div>
